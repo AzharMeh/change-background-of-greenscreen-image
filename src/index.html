@@ -1,0 +1,33 @@
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+<div class="title">
+<header>
+  <h1>BACKGROUND<span>FLIPPER</span></h1>  
+  </header>
+    <h3>"Change background of green screen image ( Higher image quality gives better results )"</h3>
+  </div>
+
+<div class="imgCont">
+<div id= "d1" class="canvas1">
+  <canvas id="can1"></canvas>
+  <p class ="selection">
+ <lebal>Foreground Image </lebal><input type="file" multiple ="false" accept ="image/*" onchange="fUpload()"id ="finput"/>
+
+    </p>
+</div>
+  
+  <div class="canvas2">
+  <canvas id="can2"></canvas>
+    <p class ="selection">
+   <lebal> Background Image </lebal><input type="file" multiple ="false" accept ="image/*" onchange="bUpload()"id ="binput"/></p>
+</div>
+</div>  
+  
+  <div class="command" >
+<input type="button" value="Change" onclick="Greenscr()" id ="changeB" class="button"/>
+  
+  <input type="button" value="Clear" onclick="Clearscr()" id ="ClearB" class="button"/>
+    
+  </div>
